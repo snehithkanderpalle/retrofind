@@ -1,0 +1,131 @@
+/* Global retro fonts */
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+ background-image: url('wallhaven-w8v116_2560x1080.png');
+  color: #222;
+}
+
+/* Attach custom backgrounds here */
+.auth-body {
+  /* background-image: url('your-auth-bg.jpg'); */
+  background-size: cover;
+  background-position: center;
+}
+
+.hindi-theme {
+  /* background-image: url('your-hindi-bg.jpg'); */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Containers */
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+.form-box {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.hidden { display: none; }
+
+input, button {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  font-family: inherit;
+}
+
+button {
+  background: #222;
+  color: #f4f1ea;
+  cursor: pointer;
+}
+button:hover {
+  background: #555;
+}
+
+/* Dashboard */
+.dashboard {
+  text-align: center;
+}
+.lang-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+.lang-card {
+  display: block;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Cinzel', serif;
+  text-decoration: none;
+  color: #fff;
+}
+.hindi-card { background: #b22222; } /* dark red */
+.english-card { background: #1c1c1c; }
+.telugu-card { background: #228b22; }
+.tamil-card { background: #4b0082; }
+
+/* Songs Page */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0,0,0,0.8);
+  color: #f4f1ea;
+  padding: 15px 30px;
+  font-family: 'Cinzel', serif;
+}
+.logout {
+  color: #f4f1ea;
+  text-decoration: none;
+}
+.logout:hover { text-decoration: underline; }
+
+.add-song {
+  background: rgba(255,255,255,0.9);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.songs-list {
+  margin: 20px;
+}
+.song-card {
+  background: rgba(255,255,255,0.95);
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+}
+.song-card h3 {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+}
+.comment-box {
+  margin-top: 10px;
+}
+.comment {
+  font-size: 0.9em;
+  border-top: 1px solid #ddd;
+  padding: 5px 0;
+}
+.h1{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #222;
+  text-align: center;
+  color: #f4f1ea;
+}

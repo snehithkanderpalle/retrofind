@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Old Songs Archive - Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <!-- Retro fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body class="auth-body">
+  <div class="container">
+    <!-- Login Form -->
+     <h1 class="h1">RETRO FINDS</h1>
+    <div id="login-form" class="form-box">
+      <h1>Login</h1>
+      <input type="email" id="login-email" placeholder="Email">
+      <input type="password" id="login-password" placeholder="Password">
+      <button onclick="login()">Login</button>
+      <p>New user? <a href="#" onclick="showSignup()">Sign up</a></p>
+    </div>
+
+    <!-- Signup Form -->
+    <div id="signup-form" class="form-box hidden">
+      <h1>Sign Up</h1>
+      <input type="text" id="signup-name" placeholder="Full Name">
+      <input type="email" id="signup-email" placeholder="Email">
+      <input type="password" id="signup-password" placeholder="Password">
+      <button onclick="signup()">Sign Up</button>
+      <p>Already have an account? <a href="#" onclick="showLogin()">Login</a></p>
+    </div>
+
+    <!-- Dashboard -->
+    <div id="dashboard" class="hidden dashboard">
+      <h1>Welcome to Old Songs Archive</h1>
+      <p>Select your language collection</p>
+      <div class="lang-grid">
+        <a href="hindi.html" class="lang-card hindi-card">Hindi Classics</a>
+        <a href="english.html" class="lang-card english-card">English Classics</a>
+        <a href="telugu.html" class="lang-card telugu-card">Telugu Classics</a>
+        <a href="tamil.html" class="lang-card tamil-card">Tamil Classics</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

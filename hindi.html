@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hindi Classics - Old Songs Archive</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body class="hindi-theme">
+  <header>
+    <h1>Hindi Old Classics</h1>
+    <a href="index.html" class="logout">Logout</a>
+  </header>
+
+  <main>
+    <!-- Add Song Form -->
+    <section class="add-song">
+      <h2>Add a Song</h2>
+      <input type="text" id="song-title" placeholder="Song Title">
+      <input type="text" id="song-artist" placeholder="Artist Name">
+      <input type="url" id="song-link" placeholder="YouTube/Spotify Link">
+      <button onclick="addSong('hindi')">Add Song</button>
+    </section>
+<marquee direction="right" scrollamount="25" style="color: rgb(1, 22, 21);background-color: antiquewhite;">Kishore Kumar      Mohammed Rafi      Mukesh      Lata Mangeshkar      Asha Bhosle   Talat Mahmood  Hemant Kumar  Manna Dey  Geeta Dutt  Suraiya  Shamshad Begum  Anuradha Paudwal Yesudas Mahendra   Kapoor  Jagjit Singh   Kishore Kumar      Mohammed Rafi      Mukesh      Lata Mangeshkar      Asha Bhosle   Talat Mahmood  Hemant Kumar  Manna Dey  Geeta Dutt  Suraiya  Shamshad Begum  Anuradha Paudwal Yesudas Mahendra   Kapoor  Jagjit Singh</marquee>
+    <!-- Songs List -->
+    <section>
+      <h2>Community Songs</h2>
+      <div id="songs-list" class="songs-list">
+        <audio><source src="Kaun Tujhe (Kishore Kumar).mp3"</audio>
+        <!-- Songs will be added here dynamically -->
+      </div>
+    </section>
+  </main>
+</body>
+</html>
